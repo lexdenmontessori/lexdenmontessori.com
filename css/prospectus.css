@@ -1,0 +1,104 @@
+img {
+  cursor: pointer;
+  border: none;
+}
+
+
+/* ------------------------------- */
+
+.wrapper {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+
+::-webkit-scrollbar {
+  height: 5px; width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+
+
+
+.pages {
+  width: 7700px;
+  background-image: url("../images/soft_wallpaper.png");
+  border: solid #ccc;
+  border-width: 1px 0;
+  overflow: auto;
+  margin-bottom: 5px;
+  padding-left: 50%; padding-right: 50%;
+}
+
+.page:first-child {
+	margin-left: -300px;
+}
+
+.page:last-child {
+	margin-right: -300px;
+}
+
+
+
+.page {
+	display: block;
+	float: left;
+	width: 587px;
+	height: 500px;
+	margin-right: 100px;
+	margin-top: 82px;
+}
+
+.page p { opacity: 0; -webkit-transition: opacity 1s ease; }
+.page.current p { opacity: 1; }
+
+.page img {
+	display: block;
+	width: 587px;
+	height: 416px;
+	
+  /*-moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;*/
+  box-shadow: 1px 1px 1px #555;
+
+  opacity: 0.8;
+	-webkit-transition: opacity 1s ease;
+}
+
+
+.img_wrapper_2 {
+	background: black;
+}
+
+.page.current img, .page:hover img { opacity: 1; }
+
+.page .click2flip {
+	width: 600px;
+	height: 50px;
+	margin-top: -50px;
+	text-align: center;
+	font-style: italic; font-weight: bold;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease;
+}
+
+.page .click2flip:before { content: "Click to center!"; }
+.page.current .click2flip:before { content: "Click to flip!"; }
+
+.page .img_wrapper:hover .click2flip { opacity: 1; }
+
+.show_obverse img.reverse { display: none; }
+.show_reverse img.obverse { display: none; }
+
+.overlay {
+	pointer-events: none;
+	height: 582px;
+	margin-top: -593px;
+	background-image: url("../images/lightbox.png");
+	background-size: 100%;
+	opacity: 0.5;
+}

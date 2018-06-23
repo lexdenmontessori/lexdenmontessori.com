@@ -1,0 +1,60 @@
+{
+	"pageWidth": 589,
+	"pageHeight": 418,
+	"pages": [
+		{
+			"name": "Introduction",
+			"description": "This is intended as a close electronic reproduction of our physical prospectus &#x2014; but a physical copy may be slightly more up-to-date.  Contact us for a copy.",
+			"front": "/images/PNG/obverse/introduction.png",
+			"back": "/images/PNG/reverse/introduction.png"
+		},
+    {
+			"name": "What We Provide",
+			"description": "",
+			"front": "/images/PNG/obverse/what-we-provide.png",
+			"back": "/images/PNG/reverse/what-we-provide.png"
+		},
+  	{
+			"name": "Montessori",
+			"description": "Our Montessori directresses will be more than willing to answer any questions you might have.  Just contact us...",
+			"front": "/images/PNG/obverse/montessori.png",
+			"back": "/images/PNG/reverse/montessori.png"
+		},
+    {
+			"name": "Activities",
+			"description": "",
+			"front": "/images/PNG/obverse/activities.png",
+			"back": "/images/PNG/reverse/activities.png"
+		},
+		{
+			"name": "Around and About",
+			"description": "",
+			"front": "/images/PNG/obverse/around-and-about.png",
+			"back": "/images/PNG/reverse/around-and-about.png"
+		},
+		{
+			"name": "Fees",
+			"description": "Our fee structure changes subject to our Terms and Conditions.  For more information, please contact us.",
+			"front": "/images/PNG/obverse/fees.png",
+			"back": "/images/PNG/reverse/fees.png"
+		},
+		{
+			"name": "Location",
+			"description": "For a wider look, find us on <a href='http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5+Oxford+Rd,+Colchester+CO3,+UK&amp;sll=37.649034,-95.712891&amp;sspn=24.555386,56.513672&amp;ie=UTF8&amp;ll=51.889842,0.887833&amp;spn=0.009376,0.027595&amp;z=15&amp;iwloc=A'>Google Maps</a>.",
+			"front": "/images/PNG/Location --600.png",
+			"back": "/images/PNG/Location --reverse --600.png"
+		},
+		{
+			"name": "Miscellaneous",
+			"description": "Any more questions?  Contact us!",
+			"front": "/images/PNG/obverse/miscellaneous.png",
+			"back": "/images/PNG/reverse/miscellaneous.png"
+		},
+		{
+			"name": "Postcard",
+			"description": "Impressed?  This postcard is included in our snail mail prospectus &#x2014; just add your friend's address!",
+			"front": "/images/PNG/Postcard --600.png",
+			"back": "/images/PNG/Postcard --reverse --600.png"
+		}
+	]
+}
