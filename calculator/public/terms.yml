@@ -1620,3 +1620,5 @@ terms:
     maxWeeks: 14
     <<: *funding-2017-18
   minimumAge: 2
+  <<: *fees-2015-09-onwards
+ 
