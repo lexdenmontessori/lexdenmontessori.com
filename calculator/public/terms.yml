@@ -1601,3 +1601,22 @@ terms:
   funding: { funded: false }
   minimumAge: 2
   <<: *fees-2015-09-onwards
+ 
+  
+# 2018-2019
+# Autumn term (not baby room)
+
+- year: 2018
+  season: autumn
+  type: term
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2018-09-04, 2018-12-14]
+    holes:
+    - [2018-10-22, 2018-10-26]
+  funding:
+    headcount: 2017-09-28
+    maxWeeks: 14
+    <<: *funding-2017-18
+  minimumAge: 2
