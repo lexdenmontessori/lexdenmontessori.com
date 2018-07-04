@@ -1622,7 +1622,7 @@ terms:
   minimumAge: 2
   <<: *fees-2015-09-onwards
   
-  - year: 2018
+- year: 2018
   season: autumn
   type: term
   babyroom: true
@@ -1640,50 +1640,49 @@ terms:
   
   
 # Autumn half-term
-
- - year: 2018
- season: autumn
- type: halfterm
- babyroom: false
- provisional: false
- dates:
+- year: 2018
+  season: autumn
+  type: halfterm
+  babyroom: false
+  provisional: false
+  dates:
    interval: [2018-10-22, 2018-10-26] # Half-term week
    holes: []
- funding: { funded: false }
- minimumAge: 2
- <<: *fees-2015-09-onwards
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
  
  
 # Winter holiday club
- - year: 2018
- season: autumn
- type: holiday
- babyroom: false
- provisional: false
- dates:
+- year: 2018
+  season: autumn
+  type: holiday
+  babyroom: false
+  provisional: false
+  dates:
    interval: [2018-12-17, 2019-01-04]
    holes:
    - [2018-12-24, 2019-01-01] # Christmas week, includes bank holidays [2018-12-25, 2019-01-01]
- funding: { funded: false }
- minimumAge: 2
- <<: *fees-2015-09-onwards
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
  
  #Autumnterm/halfterm/holiday
- - year: 2018
- season: autumn
- type: termhalftermandholidayclub
- babyroom: false
- provisional: false
- dates:
+- year: 2018
+  season: autumn
+  type: termhalftermandholidayclub
+  babyroom: false
+  provisional: false
+  dates:
    interval: [2018-09-04, 2019-01-04]
    holes:
    - [2018-12-24, 2019-01-01] # Christmas week
- funding:
+  funding:
    headcount: 2018-09-28
    maxWeeks: 14
    <<: *funding-2017-18
- minimumAge: 2 # TODO what does this mean
- <<: *fees-2015-09-onwards
+  minimumAge: 2 # TODO what does this mean
+  <<: *fees-2015-09-onwards
 
 #Springterm2019
 
@@ -1705,98 +1704,98 @@ terms:
  <<: *fees-2015-09-onwards
 
 
- - year: 2018
- season: spring
- type: term
- babyroom: true
- provisional: false
- dates:
+- year: 2018
+  season: spring
+  type: term
+  babyroom: true
+  provisional: false
+  dates:
    interval: [2019-01-07, 2019-04-18]
    holes: []
- funding: { funded: false }
- minimumAge: 0
- <<: *fees-2015-09-onwards
+  funding: { funded: false }
+  minimumAge: 0
+  <<: *fees-2015-09-onwards
 
 #Spring Term Half Term holiday club
 
 
- - year: 2018
- season: spring
- type: halfterm
- babyroom: false
- provisional: false
- dates:
+- year: 2018
+  season: spring
+  type: halfterm
+  babyroom: false
+  provisional: false
+  dates:
    interval: [2019-02-18, 2019-02-2]
    holes: []
- funding: { funded: false }
- minimumAge: 2
- <<: *fees-2015-09-onwards
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
   
   
 #Spring Term Easter Holiday Club
 
 
- - year: 2018
- season: spring
- type: holiday
- babyroom: false
- provisional: false
- dates:
+- year: 2018
+  season: spring
+  type: holiday
+  babyroom: false
+  provisional: false
+  dates:
    interval: [2018-04-01, 2018-04-18]
    holes: []
- funding: { funded: false }
- minimumAge: 2
- <<: *fees-2015-09-onwards
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
  
  #Summer Term 2019
 
- - year: 2018
- season: summer
- type: term
- babyroom: false
- provisional: true
- dates:
+- year: 2018
+  season: summer
+  type: term
+  babyroom: false
+  provisional: true
+  dates:
    interval: [2019-04-23, 2019-07-24]
    holes:
    - 2019-05-06
    - 2019-05-27
    - [2019-05-28, 2019-05-31]
- funding:
+  funding:
    headcount: 2019-05-05  # TODO requires funding info
    maxWeeks: 13  # TODO needs funding info
    <<: *funding-2018-19
- minimumAge: 2
+  minimumAge: 2
    <<: *fees-2015-09-onwards
 
 
- - year: 2018
- season: summer
- type: term
- babyroom: true
- provisional: true
- dates:
+- year: 2018
+  season: summer
+  type: term
+  babyroom: true
+  provisional: true
+  dates:
    interval: [2019-04-23, 2019-08-31]  # TODO end date; requires funding info
    holes:
    - 2018-05-06
    - 2018-05-27
- funding: { funded: false }
- minimumAge: 0
- <<: *fees-2015-09-onwards
+  funding: { funded: false }
+  minimumAge: 0
+  <<: *fees-2015-09-onwards
  
  #Half Term
  
  
- - year: 2018
- season: summer
- type: halfterm
- babyroom: false
- provisional: false
- dates:
+- year: 2018
+  season: summer
+  type: halfterm
+  babyroom: false
+  provisional: false
+  dates:
    interval: [2019-05-28, 2019-05-31]
    holes: []
- funding: { funded: false }
- minimumAge: 2
- <<: *fees-2015-09-onwards
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
 
 
 
