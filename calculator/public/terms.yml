@@ -1660,7 +1660,7 @@ terms:
   babyroom: false
   provisional: false
   dates:
-    interval: [2018-12-17, 2019-01-04]
+    interval: [2018-12-17, 2019-01-03]
     holes:
     - [2018-12-24, 2019-01-01] # Christmas week, includes bank holidays [2018-12-25, 2019-01-01]
   funding: { funded: false }
