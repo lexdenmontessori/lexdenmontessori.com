@@ -1551,8 +1551,8 @@ terms:
   dates:
     interval: [2018-04-16, 2018-07-20]
     holes:
-      - 2018-05-07
-      - [2018-05-28, 2018-06-01]
+    - 2018-05-07
+    - [2018-05-28, 2018-06-01]
   funding:
     headcount: 2018-05-05  # TODO requires funding info
     maxWeeks: 13  # TODO needs funding info
@@ -1569,9 +1569,9 @@ terms:
   dates:
     interval: [2018-04-16, 2018-09-03]  # TODO end date; requires funding info
     holes:
-      - 2018-05-07
-      - 2018-05-28
-      - 2018-08-27
+    - 2018-05-07
+    - 2018-05-28
+    - 2018-08-27
   funding: { funded: false }
   minimumAge: 0
   <<: *fees-2015-09-onwards
@@ -1597,7 +1597,7 @@ terms:
   dates:
     interval: [2018-07-23, 2018-09-03]  # TODO end date; requires funding info
     holes:
-      - 2018-08-27
+    - 2018-08-27
   funding: { funded: false }
   minimumAge: 2
   <<: *fees-2015-09-onwards
@@ -1614,7 +1614,7 @@ terms:
   dates:
     interval: [2018-09-04, 2018-12-14]
     holes:
-      - [2018-10-22, 2018-10-26]
+    - [2018-10-22, 2018-10-26]
   funding:
     headcount: 2018-09-28
     maxWeeks: 14
@@ -1757,9 +1757,9 @@ terms:
   dates:
     interval: [2019-04-23, 2019-07-19]
     holes:
-    - 2019-05-06
-    - 2019-05-27
-    - [2019-05-28, 2019-05-31]
+      - 2019-05-06
+      - 2019-05-27
+      - [2019-05-28, 2019-05-31]
   funding:
     headcount: 2019-05-05  # TODO requires funding info
     maxWeeks: 13  # TODO needs funding info
@@ -1932,16 +1932,16 @@ terms:
   
  #Easter Holiday Club
  
- - year: 2019
+- year: 2019
   season: spring
   type: holiday
-  babyroom: false
+  babyroom: false   
   provisional: false
   dates:
     interval: [2020-04-06, 2020-04-16]
     holes: 
-     - 2020-04-10
-     - 2020-04-13
+    - 2020-04-10
+    - 2020-04-13
   funding: { funded: false }
   minimumAge: 2
   <<: *fees-2015-09-onwards
