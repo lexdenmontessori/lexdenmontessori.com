@@ -1843,6 +1843,25 @@ terms:
     <<: *funding-2018-19
   minimumAge: 2
   <<: *fees-2015-09-onwards
+  
+  #Autumn term 2019-2020 (baby room)
+
+- year: 2019
+  season: autumn
+  type: term
+  babyroom: true
+  provisional: false
+  dates:
+    interval: [2019-09-02, 2020-01-03]
+    holes:
+    - [2019-12-23, 2020-01-01] #ClosureWeek
+  funding:
+    headcount: 2018-09-28
+    maxWeeks: 14
+    <<: *funding-2017-18
+  minimumAge: 0
+  <<: *fees-2015-09-onwards
+
 
 
   
