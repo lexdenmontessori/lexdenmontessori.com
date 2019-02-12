@@ -1890,6 +1890,69 @@ terms:
   minimumAge: 2
   <<: *fees-2015-09-onwards
 
+#Spring Term 2019-2020 (not baby room)
+
+- year: 2019
+  season: spring
+  type: term
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2020-01-06, 2020-04-03]
+    holes:
+    - [2020-02-17, 2020-02-21] #halftermholidayclub
+  funding:
+    headcount: 2019-01-25
+    maxWeeks: 12
+    <<: *funding-2018-19
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+  
+  #Spring Term 2019-2020 (baby room)
+
+- year: 2019
+  season: spring
+  type: term
+  babyroom: true
+  provisional: false
+  dates:
+    interval: [2020-01-06, 2020-04-17]
+    holes:
+    - 2020-04-10
+    - 2020-04-13
+  funding: { funded: false }
+  minimumAge: 0
+  <<: *fees-2015-09-onwards
+
+#Spring half term 2019-2020
+
+- year: 2019
+  season: spring
+  type: halfterm
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2020-02-17, 2020-02-21]
+    holes: []
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+
+ #Easter Holiday Club
+ 
+- year: 2019
+  season: spring
+  type: holiday
+  babyroom: false   
+  provisional: false
+  dates:
+    interval: [2020-04-06, 2020-04-16]
+    holes: 
+    - 2020-04-10
+    - 2020-04-13
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
 
 
 
