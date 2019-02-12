@@ -1781,19 +1781,16 @@ terms:
   funding: { funded: false }
   minimumAge: 0
   <<: *fees-2015-09-onwards
-  
-  #Half term
-  
-  - year: 2018
-    season: summer
-    type: halfterm
-    babyroom: false
-    provisional: false
-    dates:
-      interval: [2019-05-28, 2019-05-31]
-      holes: []
-    funding: { funded: false }
-    minimumAge: 2
-    <<: *fees-2015-09-onwards
 
- 
+# Half term
+- year: 2018
+  season: summer
+  type: halfterm
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2019-05-28, 2019-05-31]
+    holes: []
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
