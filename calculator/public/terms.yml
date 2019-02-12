@@ -1861,6 +1861,37 @@ terms:
     <<: *funding-2017-18
   minimumAge: 0
   <<: *fees-2015-09-onwards
+  
+  #Autumn half-term 2019-2020
+
+- year: 2019
+  season: autumn
+  type: halfterm
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2019-10-28, 2019-11-1] # Half-term week
+    holes: []
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+  
+   #Christmas Holiday Club 2019-2020
+- year: 2019
+  season: autumn
+  type: holiday
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2019-12-16, 2020-01-02]
+    holes:
+    - [2019-12-23, 2020-01-01] # Christmas week, includes bank holidays 
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+
+
+
 
 
 
