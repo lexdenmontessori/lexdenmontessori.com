@@ -1848,7 +1848,7 @@ terms:
   funding:
     headcount: 2018-09-28
     maxWeeks: 14
-    <<: *funding-2018-19
+    <<: *funding-2019-20
   minimumAge: 2
   <<: *fees-2015-09-onwards
   
@@ -1864,7 +1864,6 @@ terms:
     holes:
     - [2019-12-23, 2020-01-01] #ClosureWeek
   funding:
-    headcount: 2018-09-28
     maxWeeks: 14
     <<: *funding-2017-18
   minimumAge: 0
@@ -1910,9 +1909,8 @@ terms:
     holes:
     - [2020-02-17, 2020-02-21] #halftermholidayclub
   funding:
-    headcount: 2019-01-25
     maxWeeks: 12
-    <<: *funding-2018-19
+    <<: *funding-2019-20
   minimumAge: 2
   <<: *fees-2015-09-onwards
   
