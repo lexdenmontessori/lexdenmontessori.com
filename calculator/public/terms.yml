@@ -1864,8 +1864,8 @@ terms:
     - [2019-12-23, 2020-01-01] #ClosureWeek
   funding:
     maxWeeks: 14
-    <<: *funding-2017-18
-  minimumAge: 0
+    <<: *funding-2019-20
+  minimumAge: 2
   <<: *fees-2015-09-onwards
   
   #Autumn half-term 2019-2020
