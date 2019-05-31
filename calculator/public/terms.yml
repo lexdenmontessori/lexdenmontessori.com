@@ -129,7 +129,7 @@ funding:
   2018-19: &funding-2018-19
     funded: true
     minimumAge: 3 # ??? TODO funding for age 2 is defined separately; we should put this in the calculator
-    perHour: 4.22 
+    perHour: 4.24 
     maxWeeks: 13 # TODO remove these; they're defined per-term
     fundableHoursPerDay: 10  # ???
     fundableHoursPerWeek: 15 # ???
