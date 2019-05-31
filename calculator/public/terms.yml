@@ -1846,6 +1846,7 @@ terms:
     holes:
     - [2019-10-28, 2019-11-1]
   funding:
+    headcount: 2018-09-28  
     maxWeeks: 14
     <<: *funding-2019-20
   minimumAge: 2
@@ -1909,6 +1910,7 @@ terms:
     - [2020-02-17, 2020-02-21] #halftermholidayclub
   funding:
     maxWeeks: 12
+    headcount: 2019-01-25
     <<: *funding-2019-20
   minimumAge: 2
   <<: *fees-2015-09-onwards
