@@ -1844,9 +1844,8 @@ terms:
   dates:
     interval: [2019-09-03, 2019-12-13]
     holes:
-      - [2019-10-28, 2019-11-1]
+    - [2019-10-28, 2019-11-1]
   funding:
-    headcount: 2018-09-28
     maxWeeks: 14
     <<: *funding-2019-20
   minimumAge: 2
