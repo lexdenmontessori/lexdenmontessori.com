@@ -1977,9 +1977,9 @@ terms:
   dates:
     interval: [2020-04-20, 2020-07-17]
     holes:
-    - 2019-05-04
-    - 2019-05-25
-    - [2019-05-26, 2019-05-29]
+      - 2019-05-04
+      - 2019-05-25
+      - [2019-05-26, 2019-05-29]
   funding:
     headcount: 2019-05-05  # TODO requires funding info
     maxWeeks: 13  # TODO needs funding info
