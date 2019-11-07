@@ -1977,11 +1977,11 @@ terms:
   dates:
     interval: [2020-04-20, 2020-07-17]
     holes:
-      - 2019-05-04
-      - 2019-05-25
-      - [2019-05-26, 2019-05-29]
+      - 2020-05-04
+      - 2020-05-25
+      - [2020-05-26, 2020-05-29]
   funding:
-    headcount: 2019-05-05  # TODO requires funding info
+    headcount: 2020-05-05  # TODO requires funding info
     maxWeeks: 13  # TODO needs funding info
     <<: *funding-2020-21
   minimumAge: 2
@@ -1995,9 +1995,9 @@ terms:
     dates:
       interval: [2020-04-20, 2020-09-04]  # TODO end date; requires funding info
       holes:
-      - 2019-05-04
-      - 2019-05-25
-      - 2019-08-31
+      - 2020-05-04
+      - 2020-05-25
+      - 2020-08-31
     funding: { funded: false }
     minimumAge: 0
     <<: *fees-2015-09-onwards
