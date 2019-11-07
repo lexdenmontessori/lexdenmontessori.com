@@ -1987,20 +1987,7 @@ terms:
   minimumAge: 2
   <<: *fees-2015-09-onwards
 
-- year: 2019
-  season: summer
-  type: term
-  babyroom: true
-  provisional: false
-  dates:
-    interval: [2020-04-20, 2020-09-04]  # TODO end date; requires funding info
-    holes:
-    - 2020-05-04
-    - 2020-05-25
-    - 2020-08-31
-    funding: { funded: false }
-    minimumAge: 0
-    <<: *fees-2015-09-onwards
+
 
 
 
