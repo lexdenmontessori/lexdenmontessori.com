@@ -142,6 +142,14 @@ funding:
     fundableHoursPerDay: 10  # ???
     fundableHoursPerWeek: 15 # 
     
+  2020-21: &funding-2020-21
+    funded: true
+    minimumAge: 3 # ??? TODO funding for age 2 is defined separately; we should put this in the calculator
+    perHour: 4.55
+    maxWeeks: 13 # TODO remove these; they're defined per-term
+    fundableHoursPerDay: 10  # ???
+    fundableHoursPerWeek: 15 # 
+    
 terms:
 
 ###############
@@ -1961,7 +1969,38 @@ terms:
   minimumAge: 2
   <<: *fees-2015-09-onwards
 
-
+- year: 2019
+  season: summer
+  type: term
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2020-04-20, 2020-07-17]
+    holes:
+    - 2019-05-04
+    - 2019-05-25
+    - [2019-05-26, 2019-05-29]
+  funding:
+    headcount: 2019-05-05  # TODO requires funding info
+    maxWeeks: 13  # TODO needs funding info
+    <<: *funding-2020-21
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+  
+  - year: 2019
+    season: summer
+    type: term
+    babyroom: true
+    provisional: false
+    dates:
+      interval: [2020-04-20, 2020-09-04]  # TODO end date; requires funding info
+      holes:
+      - 2019-05-04
+      - 2019-05-25
+      - 2019-08-31
+    funding: { funded: false }
+    minimumAge: 0
+    <<: *fees-2015-09-onwards
 
 
 
