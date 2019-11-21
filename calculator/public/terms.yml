@@ -2064,6 +2064,20 @@ terms:
   minimumAge: 0
   <<: *fees-2015-09-onwards
   
+   #Autumn half-term 2020-2021
+
+- year: 2020
+  season: autumn
+  type: halfterm
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2020-10-26, 2020-10-30] # Half-term week
+    holes: []
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+  
 
 
 
