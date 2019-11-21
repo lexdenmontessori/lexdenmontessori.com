@@ -2025,8 +2025,7 @@ terms:
   provisional: false
   dates:
     interval: [2020-07-20, 2020-08-28]  
-    holes: 
-      - 2019-08-31
+    holes: []
   funding: { funded: false }
   minimumAge: 2
   <<: *fees-2015-09-onwards
