@@ -1933,6 +1933,7 @@ terms:
   dates:
     interval: [2020-01-06, 2020-04-17]
     holes:
+    - 2020-04-09
     - 2020-04-10
     - 2020-04-13
   funding: { funded: false }
