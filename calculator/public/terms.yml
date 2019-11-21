@@ -2031,6 +2031,24 @@ terms:
   
   #2020-2021
   
+  # Autumn term (not baby room)
+
+- year: 2020
+  season: autumn
+  type: term
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2020-09-07, 2020-12-18]
+    holes:
+    - [2020-10-26, 2020-10-30]
+  funding:
+    headcount: 2020-09-27  
+    maxWeeks: 14
+    <<: *funding-2020-21
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+  
 
 
 
