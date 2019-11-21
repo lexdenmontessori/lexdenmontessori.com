@@ -2014,6 +2014,23 @@ terms:
   funding: { funded: false }
   minimumAge: 2
   <<: *fees-2015-09-onwards
+  
+   #Summer Holiday Club
+
+- year: 2019
+  season: summer
+  type: holiday
+  babyroom: false
+  provisional: false
+  dates:
+    interval: [2020-07-20, 2020-09-03]  
+    holes: []
+  funding: { funded: false }
+  minimumAge: 2
+  <<: *fees-2015-09-onwards
+  
+  #2020-2021
+  
 
 
 
