@@ -1962,7 +1962,7 @@ terms:
   babyroom: false   
   provisional: false
   dates:
-    interval: [2020-04-06, 2020-04-16]
+    interval: [2020-04-06, 2020-04-17]
     holes: 
     - 2020-04-09
     - 2020-04-10
@@ -1977,7 +1977,7 @@ terms:
   babyroom: false
   provisional: false
   dates:
-    interval: [2020-04-20, 2020-07-17]
+    interval: [2020-04-20, 2020-07-24]
     holes:
     - 2020-05-08
     - 2020-05-25
@@ -2025,7 +2025,7 @@ terms:
   babyroom: false
   provisional: false
   dates:
-    interval: [2020-07-20, 2020-08-28]  
+    interval: [2020-07-27, 2020-09-04]  
     holes: []
   funding: { funded: false }
   minimumAge: 2
